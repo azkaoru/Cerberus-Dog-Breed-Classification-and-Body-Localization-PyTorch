@@ -11,7 +11,7 @@ class UserInterface:
         self.window = tk.Tk()
         self.window.title('Cerberus - Bodyparts Detector')
         self.window.geometry('1440x900')
-        self.window.iconbitmap('res/logo.ico')
+        #self.window.iconbitmap('res/logo.ico')
         self.weights_path = None
         self.train_button_clicked = False
         self.images_path = ''
@@ -103,12 +103,18 @@ class UserInterface:
 
             # Get the path to the output image within the latest directory
             output_images = [f for f in os.listdir(latest_directory)]
-            
+           
+            max_width, max_height = 800, 600 
+
             if len(output_images) > 0:
                 output_image_path = os.path.join(latest_directory, output_images[0])
     
             # Load the output image using PIL
             output_image = Image.open(output_image_path)
+
+
+            output_image.thumbnail((max_width, max_height), Image.ANTIALIAS)
+
             
             # Create a new window to display the image
             window = tk.Toplevel(self.window)

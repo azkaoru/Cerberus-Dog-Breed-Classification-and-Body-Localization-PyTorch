@@ -11,10 +11,11 @@ clearml==1.11.1
 coremltools==6.3.0
 GitPython==3.1.31
 ipython==8.8.0
-models==0.9.3
+#models==0.9.3
+doqu==0.28.2
 mss==9.0.1
-nncf==2.5.0
-numpy==1.24.1
+nncf==2.6.0
+numpy==1.24.2
 onnx==1.14.0
 onnxruntime==1.15.1
 opencv-python==4.7.0.72
@@ -31,7 +32,8 @@ scipy==1.10.1
 seaborn==0.12.2
 setuptools==67.7.2
 tensorflowjs==4.8.0
-tflite-support==0.4.3
+#tflite-support==0.4.3
+tflite-support==0.4.4
 thop==0.1.1-2209072238
 torch==2.0.1
 torchvision==0.15.2
@@ -40,3 +42,4 @@ ultralytics==8.0.103
 utils==1.0.1
 val==0.6
 x2paddle==1.4.1
+

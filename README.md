@@ -137,3 +137,9 @@ Project Link: [https://github.com/gerardocipriano/Cerberus-Dog-Breed-Classificat
 
 [license-url]: https://github.com/gerardocipriano/Cerberus-Dog-Breed-Classification-and-Body-Localization-PyTorchblob/master/LICENSE
 [product-screenshot]: res/secondLogo.png
+
+## requirement
+
+python3.11
+
+I was unable to install it on python3.13.
