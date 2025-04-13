@@ -42,4 +42,4 @@ ultralytics==8.0.103
 utils==1.0.1
 val==0.6
 x2paddle==1.4.1
-
+flask==2.3.3

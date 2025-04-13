@@ -1,0 +1,68 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Cerberus API Test Results</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1 { color: #333; }
+                .section { margin-bottom: 30px; }
+                .image-container { display: flex; flex-wrap: wrap; gap: 20px; }
+                .image-box { border: 1px solid #ddd; padding: 10px; border-radius: 5px; }
+                img { max-width: 400px; max-height: 400px; }
+                table { border-collapse: collapse; width: 100%; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+            </style>
+        </head>
+        <body>
+            <h1>Cerberus Dog Body Part Detection API Test Results</h1>
+            
+            <div class="section">
+                <h2>Original Test Image</h2>
+                <div class="image-container">
+                    <div class="image-box">
+                        <img src="original_test_image.jpg" alt="Test Image">
+                        <p>Original test image</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="section">
+                <h2>Eye Detection Results</h2>
+                <table>
+                    <tr>
+                        <th>Eye Index</th>
+                        <th>Coordinates (x1, y1) - (x2, y2)</th>
+                        <th>Confidence</th>
+                    </tr>
+            
+                </table>
+            </div>
+            
+            <div class="section">
+                <h2>Object Detection Results</h2>
+                <div class="image-container">
+                    <div class="image-box">
+                        <img src="objects_detected.jpg" alt="Detected Objects">
+                        <p>All detected dog body parts</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Eye Winking Results</h2>
+                <div class="image-container">
+            
+                    <div class="image-box">
+                        <img src="winking_eye_0.jpg" alt="Winking Eye 0">
+                        <p>Dog with eye 0 winking</p>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </body>
+        </html>
+        
